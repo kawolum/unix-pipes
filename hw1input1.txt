@@ -1,0 +1,12 @@
+main()
+{ input_var a,b,c,d,e;
+internal_var p0,p1,p2,p3;
+read(a,b,c,d,e);
+cobegin
+p0 = a * b * c /e;
+p1 = c + d;
+p2 = a - d;
+coend;
+p3=(p0+p1)*p2;
+write(a,b,c,d,p0,p1,p2,p3);
+}
